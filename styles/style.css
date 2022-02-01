@@ -1,22 +1,137 @@
-.header {
+/*#region Variables*/
+/*#endregion Variables*/
+/*#region Generic Styles*/
+h1, h2, h3, h4, h5, h6, h7, h8, h9, h10, a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2, h3 {
+  color: #00945f;
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p {
+  color: #888888;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  line-height: 190%;
+}
+
+/*#endregion Generic Styles*/
+#header {
   background-color: blue;
 }
 
-.investment {
-  background-color: green;
+#header #logo {
+  background-color: black;
+  margin: 64px 0 53px 35px;
 }
 
-.investment a {
+#header #banner {
+  margin-bottom: 64px;
+}
+
+main {
+  margin: 0 36px;
+}
+
+main #investmentDiv {
+  width: 100%;
+  background-color: violet;
+  margin-bottom: 50px;
+}
+
+main #investmentDiv #investmentTitle {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0 auto;
+  background-color: red;
+  margin-bottom: 10px;
+}
+
+main #investmentDiv #investmentTitle h2 {
+  margin-bottom: 10px;
+}
+
+main #investmentDiv #investmentTitle #investmentLine {
+  width: 72px;
+  height: 2px;
+  margin: 0 auto;
+  background-color: #00945f;
+}
+
+main #orangeButtonDiv {
+  background-color: black;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+main #orangeButtonDiv a {
   text-decoration: unset;
-  background-color: orange;
+  color: white;
+  background-color: #df7300;
+  padding: 10px 20px;
+  font-size: 20px;
 }
 
-.citizensAdvantage {
+main #citizensAdvantage {
   background-color: orange;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto 25px auto;
 }
 
-#greenButton {
-  text-decoration: unset;
+main #citizensAdvantageLine {
+  background-color: #00945f;
+  margin: 0 auto 40px auto;
+  height: 2px;
+  width: 72px;
+}
+
+main #citizensAdvantageBlocksFull {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 400px;
+  width: 100%;
+}
+
+main #citizensAdvantageBlocksFull #vl {
+  height: 100px;
+  width: 20px;
+  background-color: red;
+}
+
+main #citizensAdvantageBlocksFull #citizensAdvantageBlocksLeft {
   background-color: green;
+  width: 48%;
+}
+
+main #citizensAdvantageBlocksFull #citizensAdvantageBlocksLeft .blocks {
+  background-color: teal;
+  width: 90%;
+  height: 200px;
+}
+
+main #citizensAdvantageBlocksFull #citizensAdvantageBlocksRight {
+  background-color: blue;
+  width: 48%;
+  margin-left: auto;
+}
+
+main #citizensAdvantageBlocksFull #citizensAdvantageBlocksRight .blocks {
+  background-color: lightblue;
+  width: 90%;
+  height: 200px;
+  float: right;
 }
 /*# sourceMappingURL=style.css.map */
