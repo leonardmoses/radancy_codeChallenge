@@ -14,59 +14,75 @@ h3 {
   font-size: 18px;
 }
 
+h4 {
+  font-size: 15px;
+  color: #888888;
+  font-style: italic;
+  letter-spacing: 0.2px;
+  line-height: 160%;
+}
+
+h5 {
+  color: #00945f;
+}
+
+h7 {
+  color: #888888;
+  font-size: 11px;
+  letter-spacing: 0.2px;
+  line-height: 120%;
+}
+
 p {
   color: #888888;
   font-size: 16px;
-  letter-spacing: 0.4px;
-  line-height: 190%;
+  letter-spacing: 0.35px;
+  line-height: 180%;
 }
 
 /*#endregion Generic Styles*/
-#header {
-  background-color: blue;
+body header #logoDiv {
+  width: 100%;
 }
 
-#header #logo {
-  background-color: black;
+body header #logoDiv #logo {
   margin: 64px 0 53px 35px;
 }
 
-#header #banner {
+body header #banner {
+  width: 100%;
   margin-bottom: 64px;
 }
 
-main {
-  margin: 0 36px;
+body main {
+  margin: 0 36px 136px 36px;
 }
 
-main #investmentDiv {
+body main #investmentDiv {
   width: 100%;
-  background-color: violet;
   margin-bottom: 50px;
 }
 
-main #investmentDiv #investmentTitle {
+body main #investmentDiv #investmentTitle {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   margin: 0 auto;
-  background-color: red;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
-main #investmentDiv #investmentTitle h2 {
-  margin-bottom: 10px;
+body main #investmentDiv #investmentTitle h2 {
+  margin-bottom: 15px;
 }
 
-main #investmentDiv #investmentTitle #investmentLine {
+body main #investmentDiv #investmentTitle #investmentLine {
   width: 72px;
   height: 2px;
   margin: 0 auto;
   background-color: #00945f;
 }
 
-main #orangeButtonDiv {
-  background-color: black;
+body main #orangeButtonDiv {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -74,7 +90,7 @@ main #orangeButtonDiv {
   margin-bottom: 40px;
 }
 
-main #orangeButtonDiv a {
+body main #orangeButtonDiv a {
   text-decoration: unset;
   color: white;
   background-color: #df7300;
@@ -82,56 +98,166 @@ main #orangeButtonDiv a {
   font-size: 20px;
 }
 
-main #citizensAdvantage {
-  background-color: orange;
+body main #citizensAdvantage {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   margin: 0 auto 25px auto;
 }
 
-main #citizensAdvantageLine {
+body main #citizensAdvantageLine {
   background-color: #00945f;
   margin: 0 auto 40px auto;
   height: 2px;
   width: 72px;
 }
 
-main #citizensAdvantageBlocksFull {
+body main #citizensAdvantageBlocksFull {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+body main #citizensAdvantageBlocksFull h3 {
+  margin-bottom: 2%;
+}
+
+body main #citizensAdvantageBlocksFull .vl {
+  height: 145px;
+  width: 1px;
+  background-color: #888888;
+}
+
+body main #citizensAdvantageBlocksFull #citizensAdvantageBlocksTop {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 400px;
   width: 100%;
+  margin-bottom: 120px;
 }
 
-main #citizensAdvantageBlocksFull #vl {
-  height: 100px;
-  width: 20px;
-  background-color: red;
+body main #citizensAdvantageBlocksFull #citizensAdvantageBlocksTop #block1, body main #citizensAdvantageBlocksFull #citizensAdvantageBlocksTop #block2 {
+  width: 47%;
 }
 
-main #citizensAdvantageBlocksFull #citizensAdvantageBlocksLeft {
-  background-color: green;
-  width: 48%;
+body main #citizensAdvantageBlocksFull #citizensAdvantageBlocksTop #block1 {
+  margin-right: auto;
 }
 
-main #citizensAdvantageBlocksFull #citizensAdvantageBlocksLeft .blocks {
-  background-color: teal;
-  width: 90%;
-  height: 200px;
+body main #citizensAdvantageBlocksFull #citizensAdvantageBlocksTop #block1 p {
+  margin-bottom: 2%;
 }
 
-main #citizensAdvantageBlocksFull #citizensAdvantageBlocksRight {
-  background-color: blue;
-  width: 48%;
+body main #citizensAdvantageBlocksFull #citizensAdvantageBlocksTop #block1 a {
+  text-decoration: unset;
+  color: #9ab65e;
+  font-size: 14px;
+}
+
+body main #citizensAdvantageBlocksFull #citizensAdvantageBlocksTop #block2 {
   margin-left: auto;
 }
 
-main #citizensAdvantageBlocksFull #citizensAdvantageBlocksRight .blocks {
-  background-color: lightblue;
+body main #citizensAdvantageBlocksFull #citizensAdvantageBlocksBottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+body main #citizensAdvantageBlocksFull #citizensAdvantageBlocksBottom #block3, body main #citizensAdvantageBlocksFull #citizensAdvantageBlocksBottom #block4 {
+  width: 47%;
+}
+
+body main #citizensAdvantageBlocksFull #citizensAdvantageBlocksBottom #block3 {
+  margin-right: auto;
+}
+
+body main #citizensAdvantageBlocksFull #citizensAdvantageBlocksBottom #block4 {
+  margin-left: auto;
+}
+
+body main #homeloans {
+  margin-bottom: 100px;
+}
+
+body main #homeloans h6 {
+  background-color: #00945f;
+  margin: 0 auto 20px auto;
+  text-align: center;
+  padding: 20px;
+  width: 97%;
+  color: white;
+}
+
+body main #homeloans p {
   width: 90%;
-  height: 200px;
-  float: right;
+  margin: 0 auto;
+}
+
+body main #quotes {
+  margin: 0 auto;
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+body main #quotes .quoteClass h4, body main #quotes .quoteClass h5 {
+  text-align: center;
+  margin: 0 auto;
+  width: 70%;
+}
+
+body main #quotes .quoteClass h4 {
+  margin-bottom: 19px;
+}
+
+body main #quotes .quoteClass h5 {
+  width: 170px;
+}
+
+body main #quotes .quoteimgClass {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+body main #quotes #quote2 h4 {
+  width: 65%;
+}
+
+body footer {
+  width: 100%;
+}
+
+body footer #footerStrip {
+  width: 100%;
+  height: 1px;
+  margin-bottom: 36px;
+  background-color: #00945f;
+}
+
+body footer #footerContent {
+  margin: 0 auto;
+  width: 93%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body footer #footerContent #socials {
+  margin-bottom: 27px;
+}
+
+body footer #footerContent h7 {
+  margin-bottom: 27px;
+}
+
+body footer #footerContent a {
+  text-decoration: unset;
 }
 /*# sourceMappingURL=style.css.map */
