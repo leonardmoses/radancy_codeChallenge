@@ -29,4 +29,6 @@
 ![### Desktop Reference Image](/images/reference/desktopReference.png)
 
 ![### Mobile Reference Image 1](/images/reference/mobileReference1.png | width=320)
+<img src="/images/reference/mobileReference1.png" alt="Mobile Reference 1" width="100" height="100" />
 ![### Mobile Reference Image 2](/images/reference/mobileReference2.png | width=320)
+<img src="/images/reference/mobileReference2.png" alt="Mobile Reference 1" width="100" height="100" />
