@@ -26,6 +26,10 @@ h5 {
   color: #00945f;
 }
 
+h6 {
+  font-size: 21px;
+}
+
 h7 {
   color: #888888;
   font-size: 11px;
@@ -40,9 +44,12 @@ p {
   line-height: 180%;
 }
 
+a {
+  text-decoration: unset;
+}
+
 /*#endregion Generic Styles*/
 html, body {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -57,6 +64,10 @@ body {
           flex-direction: column;
 }
 
+body header {
+  width: 100%;
+}
+
 body header #logoDiv {
   width: 100%;
 }
@@ -66,14 +77,21 @@ body header #logoDiv #logo {
 }
 
 body header #banner {
-  background-image: url("../images/Banner_Main.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: blue;
-  height: 449px;
   width: 100%;
-  scale: 60%;
+  margin: 0 auto;
   margin-bottom: 64px;
+}
+
+body header #banner #bannerImg1 {
+  width: 100%;
+}
+
+body header #banner #bannerImg2 {
+  visibility: hidden;
+  width: 0px;
+  height: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 body main {
@@ -113,7 +131,6 @@ body main #orangeButtonDiv {
 }
 
 body main #orangeButtonDiv a {
-  text-decoration: unset;
   color: white;
   background-color: #df7300;
   padding: 10px 20px;
@@ -145,7 +162,8 @@ body main #citizensAdvantageBlocksFull h3 {
 }
 
 body main #citizensAdvantageBlocksFull .vl {
-  height: 145px;
+  margin-top: 10px;
+  height: 150px;
   width: 1px;
   background-color: #888888;
 }
@@ -171,7 +189,6 @@ body main #citizensAdvantageBlocksFull #citizensAdvantageBlocksTop #block1 p {
 }
 
 body main #citizensAdvantageBlocksFull #citizensAdvantageBlocksTop #block1 a {
-  text-decoration: unset;
   color: #9ab65e;
   font-size: 14px;
 }
@@ -225,7 +242,7 @@ body main #quotes {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin-bottom: 50px;
+  margin-bottom: -20px;
 }
 
 body main #quotes .quoteClass h4, body main #quotes .quoteClass h5 {
@@ -280,11 +297,15 @@ body footer #footerContent h7 {
   margin-bottom: 27px;
 }
 
-body footer #footerContent a {
-  text-decoration: unset;
+body footer #footerContent #policy a {
+  text-decoration: underline;
 }
 
-@media only screen and (max-width: 550px) {
+body footer #footerContent #privacyStatement :hover, body footer #footerContent #privacyStatement :link, body footer #footerContent #privacyStatement :visited, body footer #footerContent #privacyStatement :active {
+  color: #888888;
+}
+
+@media only screen and (max-width: 600px) {
   h6 {
     font-size: 20px;
     line-height: 150%;
@@ -300,33 +321,28 @@ body footer #footerContent a {
     margin: 30px 0;
     width: 50%;
   }
-  body header #banner {
-    background-image: url("../images/Banner_Main.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: blue;
-    height: 449px;
-    width: 100%;
-    scale: 60%;
-    margin-bottom: 40px;
-  }
   body main {
     margin: 0 22px 136px 22px;
   }
   body main #citizensAdvantageBlocksFull {
     width: 100%;
-    margin-bottom: unset;
+    margin-bottom: 40px;
   }
   body main #citizensAdvantageBlocksFull .vl {
     height: unset;
     width: unset;
+  }
+  body main #citizensAdvantageBlocksFull .hl {
+    background-color: #888888;
+    height: 1px;
+    width: 100%;
+    margin: 20px 0;
   }
   body main #citizensAdvantageBlocksFull #citizensAdvantageBlocksTop {
     display: block;
     margin-bottom: unset;
   }
   body main #citizensAdvantageBlocksFull #citizensAdvantageBlocksTop #block1 {
-    margin-bottom: 40px;
     width: 100%;
   }
   body main #citizensAdvantageBlocksFull #citizensAdvantageBlocksTop #block1 p {
@@ -334,18 +350,15 @@ body footer #footerContent a {
   }
   body main #citizensAdvantageBlocksFull #citizensAdvantageBlocksTop #block2 {
     width: 100%;
-    margin-bottom: 40px;
   }
   body main #citizensAdvantageBlocksFull #citizensAdvantageBlocksBottom {
     display: block;
   }
   body main #citizensAdvantageBlocksFull #citizensAdvantageBlocksBottom #block3 {
-    margin-bottom: 40px;
     width: 100%;
   }
   body main #citizensAdvantageBlocksFull #citizensAdvantageBlocksBottom #block4 {
     width: 100%;
-    margin-bottom: 40px;
   }
   body main #homeloans {
     width: 100%;
@@ -375,10 +388,28 @@ body footer #footerContent a {
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 420px) {
+  body header {
+    width: 100%;
+  }
   body header #banner {
-    background-image: url("../images/Banner_Mobile1.png");
-    height: 201px;
+    width: 100%;
+  }
+  body header #banner #bannerImg1 {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+    margin: 0;
+    padding: 0;
+  }
+  body header #banner #bannerImg2 {
+    visibility: visible;
+    height: unset;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    -o-object-position: center;
+       object-position: center;
   }
 }
 /*# sourceMappingURL=style.css.map */
