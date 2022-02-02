@@ -45,10 +45,15 @@ p {
 
 // page widge: 1280
 
+html , body {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 body {
     // display: flex;
-    // flex-direction: column;
+    flex-direction: column;
 
 
     header {
@@ -66,7 +71,13 @@ body {
         }
 
         #banner {
+            background-image: url("../images/Banner_Main.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: blue;
+            height: 449px;
             width: 100%;
+            scale: 60%;
             margin-bottom: 64px;
         }
     }
@@ -114,6 +125,7 @@ body {
             // background-color: orange;
             width: fit-content;
             margin: 0 auto 25px auto;
+            text-align: center;
     
         }
         #citizensAdvantageLine {
@@ -269,3 +281,147 @@ body {
 
 }
 
+
+
+@media only screen and (max-width: 550px ) {
+
+    h6 {
+        font-size: 20px;
+        // letter-spacing: 0.4px;
+        line-height: 150%;
+    }
+    p {
+        font-size: 18px;
+    }
+
+    body {
+
+        header {
+            // display: flex;
+            // flex-wrap: wrap;
+            // background-color: blue;
+            #logoDiv {
+                width: 100%;
+                // background-color: red;
+                text-align: center;
+                #logo {
+                    margin: 30px 0;
+                    width: 50%;
+                    // background-color: black;
+                    
+                }
+            }
+    
+            #banner {
+                background-image: url("../images/Banner_Main.png");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-color: blue;
+                height: 449px;
+                width: 100%;
+                scale: 60%;
+                margin-bottom: 40px;
+            }
+        }
+
+        main {
+            margin: 0 22px 136px 22px;
+            #citizensAdvantageBlocksFull {
+                width: 100%;
+                margin-bottom: unset;
+                h3 {
+                    // margin-bottom: 2%;
+                }
+                .vl {
+                    height: unset;
+                    width: unset;
+                }
+        
+                #citizensAdvantageBlocksTop {
+                    display: block;
+                    // background-color: green;
+                    margin-bottom: unset;
+                    #block1 {
+                        margin-bottom: 40px;
+                        width: 100%;
+                        p {
+                            margin-bottom: 2% ;
+                        }
+                    }
+                    #block2 {
+                        width: 100%;
+                        margin-bottom: 40px;
+                    }
+                }
+        
+                #citizensAdvantageBlocksBottom {
+                    display: block;
+                    // background-color: green;
+                    // width: 100%;
+                    // margin-bottom: 120px;
+                    #block3 {
+                        margin-bottom: 40px;
+                        width: 100%;
+                    }
+                    #block4 {
+                        width: 100%;
+                        margin-bottom: 40px;
+                    }
+                }
+        
+            }
+    
+            #homeloans {
+                width: 100%;
+                // background-color: black;
+                margin-bottom: 100px;
+                h6 {
+                    background-color: $green;
+                    margin: 0 auto 20px auto;
+                    width: 85%;
+                }
+                p {
+                    width: 100%;
+                    // margin: 0 auto;
+                }
+                
+            }
+
+            #quotes {
+                display: flex;
+                flex-wrap: wrap;
+                // justify-content: space-around;
+                margin-bottom: -100px;
+                .quoteClass {
+                    margin-bottom: 40px;
+                }
+        
+                .quoteimgClass {
+        
+                }
+        
+            }
+
+        }
+
+        footer {
+            #footerContent {
+                width: 88%;
+            }   
+        }
+    }
+
+}
+
+@media only screen and (max-width: 320px ) {
+
+    body {
+        header {
+            #banner {
+                background-image: url("../images/Banner_Mobile1.png");
+                height: 201px;
+            }
+        }
+    }
+
+}
