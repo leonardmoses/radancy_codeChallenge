@@ -189,7 +189,7 @@ body main #citizensAdvantageBlocksFull #citizensAdvantageBlocksTop #block1 p {
 }
 
 body main #citizensAdvantageBlocksFull #citizensAdvantageBlocksTop #block1 a {
-  color: #9ab65e;
+  color: #a1b977;
   font-size: 14px;
 }
 
@@ -291,6 +291,10 @@ body footer #footerContent {
 
 body footer #footerContent #socials {
   margin-bottom: 27px;
+}
+
+body footer #footerContent #socials a {
+  margin-right: 5px;
 }
 
 body footer #footerContent h7 {
