@@ -15,10 +15,18 @@
 1. Because I needed to extract the images, text, logo, I opened the file in photoshop to extract those items from their respective layers. I saved them in .png format.
 2. I created an appropriate file structure for the site folder and linked all css, scss, js. 
 3. I blocked out the html code linked the images and copy and pasted the text.
-4. Because different browsers have their own default formatting, I used a CSS reset by meyerweb.com to put them all on the same playing field.
-5. I styled with Sass (.scss) as Sass code can be structured more better.
+4. Because different browsers have their own default formatting, I used a CSS reset by [meyerweb.com](https://meyerweb.com/eric/tools/css/reset/) to put them all on the same playing field.
+5. I styled with Sass (.scss) as Sass code can be structured better.
 6. I used a screen color picker to get the correct RGB colors from the reference file and saved them into Sass variables.
 7. I made sure to make the site as responsive for both Desktop and Mobile devices by using techniques such as flexbox and Media Query. The reference file showed that the largest image I could extract was 1280px. I forced to image to expand and shrink with browser resizing.
-8. The reference for the mobile version spanned 320px. I added an @media break at 600px to split the 3 images that were horizontally and have them stacked vertically. I added another @media break at 420px to change the main banner photo to a more appropriate size as the original scales down too small.
+8. The reference for the mobile version spanned 320px. I added an @media break at 600px to split the 3 images that were horizontally stacked and have them stacked vertically. I added another @media break at 420px to change the main banner photo to a more appropriate size as the original scales down too small.
 9. I added alt text to img tags for screen readers. Cleaned up the code.
 10. I tested all major mobile devices from apple and samsung tables to phones as well.
+
+
+## Reference Files:
+
+![### Desktop Reference Image](/images/reference/desktopReference.png)
+
+![### Mobile Reference Image 1](/images/reference/mobileReference1.png)
+![### Mobile Reference Image 2](/images/reference/mobileReference2.png)
