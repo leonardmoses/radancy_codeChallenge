@@ -26,7 +26,7 @@
 
 ## Reference Files:
 
-![### Desktop Reference Image](/images/reference/desktopReference.png)
+![Desktop Reference Image](/images/reference/desktopReference.png)
 
-![### Mobile Reference Image 1](/images/reference/mobileReference1.png)
-![### Mobile Reference Image 2](/images/reference/mobileReference2.png)
+<img src="/images/reference/mobileReference1.png" alt="Mobile Reference 1" width="321" height="696" />
+<img src="/images/reference/mobileReference2.png" alt="Mobile Reference 1" width="321" height="1123" />
