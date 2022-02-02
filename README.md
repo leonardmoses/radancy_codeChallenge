@@ -28,5 +28,5 @@
 
 ![### Desktop Reference Image](/images/reference/desktopReference.png)
 
-<img src="/images/reference/mobileReference1.png" alt="Mobile Reference 1" width="642" height="1392" />
-<img src="/images/reference/mobileReference2.png" alt="Mobile Reference 1" width="642" height="2246" />
+<img src="/images/reference/mobileReference1.png" alt="Mobile Reference 1" width="321" height="696" />
+<img src="/images/reference/mobileReference2.png" alt="Mobile Reference 1" width="321" height="1123" />
