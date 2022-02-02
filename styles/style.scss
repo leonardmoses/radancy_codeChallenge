@@ -3,6 +3,7 @@ $green: rgb(0, 148, 95);
 $lime: rgb(161, 185, 119);
 $orange: rgb(223, 115, 0);
 $grey: rgb(136,136,136);
+$lightBlue: rgb(235,247,245);
 /*#endregion Variables*/
 
 /*#region Generic Styles*/
@@ -226,8 +227,10 @@ body {
                 color: white;
             }
             p {
+                background-color: $lightBlue;
                 width: 90%;
                 margin: 0 auto;
+                padding: 0 50px;
             }
         }
     
@@ -396,6 +399,7 @@ body {
                 p {
                     width: 100%;
                     // margin: 0 auto;
+                    padding: unset;
                 }
             }
 

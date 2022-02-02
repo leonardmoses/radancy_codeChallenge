@@ -230,8 +230,10 @@ body main #homeloans h6 {
 }
 
 body main #homeloans p {
+  background-color: #ebf7f5;
   width: 90%;
   margin: 0 auto;
+  padding: 0 50px;
 }
 
 body main #quotes {
@@ -375,6 +377,7 @@ body footer #footerContent #privacyStatement :hover, body footer #footerContent 
   }
   body main #homeloans p {
     width: 100%;
+    padding: unset;
   }
   body main #quotes {
     display: -webkit-box;
