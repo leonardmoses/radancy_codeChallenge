@@ -28,5 +28,5 @@
 
 ![### Desktop Reference Image](/images/reference/desktopReference.png)
 
-![### Mobile Reference Image 1](/images/reference/mobileReference1.png)
-![### Mobile Reference Image 2](/images/reference/mobileReference2.png)
+![### Mobile Reference Image 1](/images/reference/mobileReference1.png | width=320)
+![### Mobile Reference Image 2](/images/reference/mobileReference2.png | width=320)
