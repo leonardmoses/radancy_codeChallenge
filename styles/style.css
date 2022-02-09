@@ -218,22 +218,20 @@ body main #citizensAdvantageBlocksFull #citizensAdvantageBlocksBottom #block4 {
 
 body main #homeloans {
   margin-bottom: 100px;
+  background-color: #ebf7f5;
 }
 
 body main #homeloans h6 {
   background-color: #00945f;
-  margin: 0 auto 20px auto;
+  margin: 0 auto 0 auto;
   text-align: center;
-  padding: 20px;
-  width: 97%;
+  padding: 20px 0;
   color: white;
 }
 
 body main #homeloans p {
-  background-color: #ebf7f5;
-  width: 90%;
   margin: 0 auto;
-  padding: 0 50px;
+  padding: 20px 50px;
 }
 
 body main #quotes {
@@ -367,17 +365,14 @@ body footer #footerContent #privacyStatement :hover, body footer #footerContent 
     width: 100%;
   }
   body main #homeloans {
-    width: 100%;
     margin-bottom: 100px;
   }
   body main #homeloans h6 {
     background-color: #00945f;
-    margin: 0 auto 20px auto;
-    width: 85%;
+    margin: 0 auto 0 auto;
   }
   body main #homeloans p {
-    width: 100%;
-    padding: unset;
+    padding: 15px 20px;
   }
   body main #quotes {
     display: -webkit-box;

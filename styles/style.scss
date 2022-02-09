@@ -218,19 +218,19 @@ body {
     
         #homeloans {
             margin-bottom: 100px;
+            background-color: $lightBlue;
             h6 {
                 background-color: $green;
-                margin: 0 auto 20px auto;
+                margin: 0 auto 0 auto;
                 text-align: center;
-                padding: 20px;
-                width: 97%;
+                padding: 20px 0;
+                // width: 97%;
                 color: white;
             }
             p {
-                background-color: $lightBlue;
-                width: 90%;
+                // width: 90%;
                 margin: 0 auto;
-                padding: 0 50px;
+                padding: 20px 50px;
             }
         }
     
@@ -388,18 +388,18 @@ body {
             }
     
             #homeloans {
-                width: 100%;
+                // width: 100%;
                 // background-color: black;
                 margin-bottom: 100px;
                 h6 {
                     background-color: $green;
-                    margin: 0 auto 20px auto;
-                    width: 85%;
+                    margin: 0 auto 0 auto;
+                    // width: 85%;
                 }
                 p {
-                    width: 100%;
+                    // width: 90%;
                     // margin: 0 auto;
-                    padding: unset;
+                    padding: 15px 20px;
                 }
             }
 
